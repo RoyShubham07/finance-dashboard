@@ -1,16 +1,61 @@
-# React + Vite
+# 💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive Finance Dashboard built using **React** and **Tailwind CSS (v4)**.  
+This project demonstrates frontend development skills including UI design, state management, data visualization, and responsive layouts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://your-vercel-link.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard Overview
+- Total Balance, Income, and Expenses summary cards
+- Balance trend visualization (Line Chart)
+- Spending breakdown by category (Pie Chart)
+
+### 💳 Transactions
+- List of transactions with:
+  - Date
+  - Amount
+  - Category
+  - Type (Income / Expense)
+- Search by category
+- Filter by transaction type
+- Admin can add transactions (role-based UI)
+
+### 🔐 Role-Based UI
+- Viewer → Can only view data
+- Admin → Can add transactions
+
+### 💡 Insights Section
+- Highest spending category
+- Total expenses
+- Smart financial observation
+
+### 🌙 Dark Mode
+- Fully functional dark/light theme
+- Theme persists using localStorage
+
+### 📱 Responsive Design
+- Mobile-friendly layout
+- Collapsible sidebar for small screens
+- Smooth transitions and animations
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS v4
+- **Charts:** Recharts
+- **State Management:** Context API
+- **Icons:** Lucide React
+
+---
+
+## 📁 Project Structure
