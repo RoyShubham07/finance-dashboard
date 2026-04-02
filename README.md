@@ -59,3 +59,23 @@ This project demonstrates frontend development skills including UI design, state
 ---
 
 ## 📁 Project Structure
+
+src/
+│
+├── components/
+│ ├── Sidebar.jsx
+│ ├── SummaryCard.jsx
+│ └── Charts/
+│ ├── LineChart.jsx
+│ └── PieChart.jsx
+│
+├── context/
+│ └── AppContext.jsx
+│
+├── pages/
+│ ├── Dashboard.jsx
+│ ├── Transactions.jsx
+│ └── Insights.jsx
+│
+├── App.jsx
+└── index.css
