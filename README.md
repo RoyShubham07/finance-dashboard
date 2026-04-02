@@ -7,7 +7,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ## 🚀 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://finance-dashboard-psi-ecru.vercel.app
 
 ---
 
