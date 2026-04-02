@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* 🔥 THIS IS THE REAL FIX (Tailwind v4 requirement) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Optional base styling */
+html, body {
+  margin: 0;
+  padding: 0;
+}
