@@ -60,7 +60,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ## 📁 Project Structure
 
-src/
+-src/
 │
 ├── components/
 │ ├── Sidebar.jsx
